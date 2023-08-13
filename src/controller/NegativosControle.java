@@ -1,8 +1,12 @@
 package controller;
 
 public class NegativosControle {
+	
+	public NegativosControle() {
+		super();
+	}
 
-	public static int Cont(int[] vetor, int N) {
+	public int Cont(int[] vetor, int N) {
 		
 		/*Condição de parada-> Quando N é menor que 1, pois se N representa o tamanho do vetor e ele é 0,
 		temos certeza de que há 0 números negativos*/
